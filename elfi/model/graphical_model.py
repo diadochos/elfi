@@ -2,7 +2,7 @@
 
 from operator import itemgetter
 
-import networkx as nx
+import networkx_v1 as nx
 
 
 class GraphicalModel:
