@@ -2,7 +2,7 @@
 
 import logging
 
-import networkx as nx
+import networkx_v1 as nx
 
 from elfi.utils import args_to_tuple, nbunch_ancestors, observed_name
 

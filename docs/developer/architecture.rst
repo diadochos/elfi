@@ -7,10 +7,10 @@ e.g. the inference methods or the data storages. This information is aimed for d
 and is not essential for using ELFI. We assume the reader is quite familiar with Python
 and has perhaps already read some of ELFI's source code.
 
-The low level representation of the ELFI model is a ``networkx.DiGraph`` with node names
+The low level representation of the ELFI model is a ``networkx_v1.DiGraph`` with node names
 as the nodes. The representation of the node is stored to the corresponding attribute
-dictionary of the ``networkx.DiGraph``. We call this attribute dictionary the node *state*
-dictionary. The ``networkx.DiGraph`` representation can be found from
+dictionary of the ``networkx_v1.DiGraph``. We call this attribute dictionary the node *state*
+dictionary. The ``networkx_v1.DiGraph`` representation can be found from
 ``ElfiModel.source_net``. Before the ELFI model can be ran, it needs to be compiled and
 loaded with data (e.g. observed data, precomputed data, batch index, batch size etc). The
 compilation and loading of data is the responsibility of the ``Client`` implementation and

@@ -5,7 +5,7 @@ import logging
 from collections import OrderedDict
 from types import ModuleType
 
-import networkx as nx
+import networkx_v1 as nx
 
 from elfi.compiler import (AdditionalNodesCompiler, ObservedCompiler,
                            OutputCompiler, RandomStateCompiler, ReduceCompiler)

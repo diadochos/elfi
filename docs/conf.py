@@ -31,7 +31,7 @@ if on_RTD:
         'pygtk', 'gtk', 'gobject', 'argparse', 'numpy', 'pandas', 'scipy', 'unqlite', 'dask',
         'distributed', 'distributed.client', 'graphviz', 'matplotlib', 'sobol_seq', 'GPy',
         'dask.delayed', 'scipy.linalg', 'scipy.optimize', 'scipy.stats', 'scipy.spatial',
-        'scipy.sparse', 'scipy.special', 'matplotlib.pyplot', 'numpy.random', 'networkx',
+        'scipy.sparse', 'scipy.special', 'matplotlib.pyplot', 'numpy.random', 'networkx_v1',
         'ipyparallel', 'numpy.lib', 'numpy.lib.format', 'sklearn.linear_model'
     ]
     sys.modules.update((mod_name, Mock()) for mod_name in MOCK_MODULES)

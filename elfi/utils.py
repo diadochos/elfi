@@ -2,7 +2,7 @@
 
 import uuid
 
-import networkx as nx
+import networkx_v1 as nx
 import numpy as np
 import scipy.stats as ss
 

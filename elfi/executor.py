@@ -3,7 +3,7 @@
 import logging
 from operator import itemgetter
 
-import networkx as nx
+import networkx_v1 as nx
 
 logger = logging.getLogger(__name__)
 
@@ -158,9 +158,9 @@ class Executor:
 def nx_constant_topological_sort(G, nbunch=None, reverse=False):
     """Return a list of nodes in a constant topological sort order.
 
-    This implementations is adapted from `networkx.topological_sort`.
+    This implementations is adapted from `networkx_v1.topological_sort`.
 
-    Modified version of networkx.topological_sort. The difference is that this version
+    Modified version of networkx_v1.topological_sort. The difference is that this version
     will always return the same order for the same graph G given that the nodes
     are either strings or numbers. Nodes will be ordered to alphabetical order before
     being added to the search.
